@@ -1,0 +1,70 @@
+#Sidebar{
+    width: 10vw;
+    height: 100vh;
+    background: #181818;
+    position: absolute;
+    top: 0;
+    z-index: 3;
+    min-height: 500px;
+}
+#Sidebar nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 50vh;
+}
+#Sidebar nav a{
+    font-size: 22px;
+    color: #4d4d4e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    line-height: 51px;
+    height: 51px;
+    position: relative;
+    text-decoration: none;
+}
+#Sidebar nav a i{
+    transition: all 0.3s ease-out;
+}
+#Sidebar nav a:hover{
+    color:#ffd700;
+}
+#Sidebar nav a:hover svg{
+    opacity: 0;
+}
+#Sidebar nav a:hover:after{
+    opacity: 1;
+}
+#Sidebar nav a:after{
+    content:"";
+    font-size: 9px;
+    letter-spacing: 2px;
+    position: absolute;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    transition: all 0.3s ease-out;
+}
+#Sidebar nav a:first-child:after{
+    content: "HOME";
+}
+#Sidebar nav a.aboutLink:after {
+    content: "ABOUT";
+}
+#Sidebar nav a.contactLink:after {
+    content: "CONTACT";
+}
+#Sidebar nav a.active svg{
+    color: #ffd700;
+}
+#Sidebar ul{
+    display: flex;
+    justify-content: center;
+    padding-top: 10vh;
+    list-style: none;
+}
