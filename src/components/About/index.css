@@ -1,0 +1,98 @@
+@keyframes js{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 72%;
+    }
+}
+@keyframes css{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 88%;
+    }
+}
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 66%;
+    }
+}
+@keyframes node{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+@keyframes react{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+@keyframes express{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+h3{
+    margin-top: 2rem;
+}
+.skill-box{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    height: 30vw;
+    left: 40vw;
+    bottom: 10vw;
+    color: #ffd700;
+}
+.skill-bar{
+    border: 1px solid white;
+    height: 0.2rem;
+    margin-top: 3px;
+    border-radius: 2%;
+}
+.js-skill{
+    height: 100%;
+    background: red;
+    animation: js 5s both;
+}
+.css-skill{
+    height: 100%;
+    background: red;
+    animation: css 5s both;
+}
+.html-skill{
+    height: 100%;
+    background: red;
+    animation: html 5s both;
+}
+.node-skill{
+    height: 100%;
+    background: red;
+    animation: node 5s both;
+}
+.react-skill{
+    height: 100%;
+    background: red;
+    animation: react 5s both;
+}
+.express-skill{
+    height: 100%;
+    background: red;
+    animation: express 5s both;
+}
+

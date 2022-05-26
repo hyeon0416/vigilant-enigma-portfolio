@@ -81,16 +81,16 @@
     border-radius: 100%;
 }
 .atom:nth-child(4){
-    animation: backInDown 1s;
+    animation: backInDown 1.1s;
 }
 .ring:nth-child(1){
-    animation: startAnime1 4.5s
+    animation: startAnime1 4.6s
 }
 .ring:nth-child(2){
-    animation: startAnime2 4.5s;
+    animation: startAnime2 4.6s;
 }
 .ring:nth-child(3){
-    animation: startAnime3 4.5s;
+    animation: startAnime3 4.6s;
 }
 .react-animate-ring{
     position: absolute;
@@ -111,15 +111,15 @@
 .react-animate-ring:nth-child(1){
     border-radius: 100%;
     transform: rotate(30deg);
-    animation: spinRing1 2s linear infinite;
+    animation: spinRing1 3s infinite;
 }
 .react-animate-ring:nth-child(2){
     border-radius: 100%;
     transform: rotate(90deg);
-    animation: spinRing2 2.3s linear infinite;
+    animation: spinRing2 4s infinite;
 }
 .react-animate-ring:nth-child(3){
     border-radius: 100%;
     transform: rotate(-30deg);
-    animation: spinRing3 2.6s linear infinite;
+    animation: spinRing3 5s infinite;
 }
