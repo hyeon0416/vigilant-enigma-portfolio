@@ -1,6 +1,7 @@
 import { useEffect , useState } from 'react'
 import { Link } from 'react-router-dom'
 import TextBox from '../TextBox'
+import ReactAnimate from '../ReactAnimate'
 import './index.css'
 
 function Home(){
@@ -29,6 +30,7 @@ function Home(){
                         <TextBox classNames={textClass} strArr={job} index={19} />
                     </h1>
                 </div>
+                <ReactAnimate />
             </div>
         </>
     )

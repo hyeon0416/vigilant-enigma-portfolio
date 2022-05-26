@@ -1,0 +1,125 @@
+@import 'animate.css';
+@keyframes spinRing1{
+    0%{
+        transform: rotate(30deg);
+    }
+    100%{
+        transform: rotate(390deg);
+    }
+}
+@keyframes spinRing2{
+    0%{
+        transform: rotate(90deg);
+    }
+    100%{
+        transform: rotate(450deg);
+    }
+}
+@keyframes spinRing3{
+    0%{
+        transform: rotate(-30deg);
+    }
+    100%{
+        transform: rotate(330deg);
+    }
+}
+@keyframes startAnime1{
+    0% {
+        opacity: 0;
+        transform: rotate(0deg);
+    }
+    100% {
+        opacity: 1;
+        transform: rotate(30deg);
+    }
+}
+@keyframes startAnime2{
+    0% {
+        opacity: 0;
+        transform: rotate(0deg);
+    }
+    100% {
+        opacity: 1;
+        transform: rotate(90deg);
+    }
+}
+@keyframes startAnime3{
+    0% {
+        opacity: 0;
+        transform: rotate(0deg);
+    }
+    100% {
+        opacity: 1;
+        transform: rotate(-30deg);
+    }
+}
+.react-animate{
+    position: absolute;
+    width: 52vh;
+    height: 50vh;
+    top: 20vh;
+    left: 60vw;
+    right: 0;
+}
+.ring{
+    opacity: 0;
+    position: absolute;
+    left: 8vw;
+    width: 10vw;
+    height: 50vh;
+    border: 4px solid white;
+    border-radius: 100%;
+}
+.atom{
+    opacity: 0;
+    position: absolute;
+    background-color: white;
+    top: 23.5vh;
+    left: 12vw;
+    width: 2vw;
+    height: 2vw;
+    border-radius: 100%;
+}
+.atom:nth-child(4){
+    animation: backInDown 1s;
+}
+.ring:nth-child(1){
+    animation: startAnime1 4.5s
+}
+.ring:nth-child(2){
+    animation: startAnime2 4.5s;
+}
+.ring:nth-child(3){
+    animation: startAnime3 4.5s;
+}
+.react-animate-ring{
+    position: absolute;
+    left: 8vw;
+    width: 10vw;
+    height: 50vh;
+    border: 4px solid white;
+}
+.react-animate-atom{
+    background-color: white;
+    position: absolute;
+    top: 23.5vh;
+    left: 12vw;
+    width: 2vw;
+    height: 2vw;
+    border-radius: 100%;
+}
+.react-animate-ring:nth-child(1){
+    border-radius: 100%;
+    transform: rotate(30deg);
+    animation: spinRing1 2s linear infinite;
+}
+.react-animate-ring:nth-child(2){
+    border-radius: 100%;
+    transform: rotate(90deg);
+    animation: spinRing2 2.3s linear infinite;
+}
+.react-animate-ring:nth-child(3){
+    border-radius: 100%;
+    transform: rotate(-30deg);
+    animation: spinRing3 2.6s linear infinite;
+}
