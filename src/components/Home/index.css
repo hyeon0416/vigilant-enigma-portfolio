@@ -1,3 +1,5 @@
+@import 'animate.css';
+
 .text-box{
     height: 100vh;
     width: 40vw;
@@ -7,4 +9,21 @@
     margin-left: 10rem;
     color: #ededed;
     cursor: default;
+}
+.button{
+    position: absolute;
+    font-size: 1.5rem;
+    border: 2px solid #ffd700;
+    letter-spacing: 4px;
+    padding: 1rem;
+    left: 9vw;
+    bottom: 30vh;
+    text-decoration: none;
+    color: #ffd700;
+    animation: fadeInLeft 1s 1.8s backwards;
+    white-space: nowrap;
+}
+.button:hover{
+    background-color: #ffd700;
+    color: #333;
 }

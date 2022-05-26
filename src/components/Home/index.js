@@ -31,6 +31,9 @@ function Home(){
                     </h1>
                 </div>
                 <ReactAnimate />
+                <Link to='/contact' className='button'>
+                    CONTACT ME
+                </Link>
             </div>
         </>
     )
