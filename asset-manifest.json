@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/vigilant-enigma-portfolio/static/css/main.febaa06d.css",
-    "main.js": "/vigilant-enigma-portfolio/static/js/main.d6d319f5.js",
+    "main.js": "/vigilant-enigma-portfolio/static/js/main.38b9bb91.js",
     "index.html": "/vigilant-enigma-portfolio/index.html",
     "main.febaa06d.css.map": "/vigilant-enigma-portfolio/static/css/main.febaa06d.css.map",
-    "main.d6d319f5.js.map": "/vigilant-enigma-portfolio/static/js/main.d6d319f5.js.map"
+    "main.38b9bb91.js.map": "/vigilant-enigma-portfolio/static/js/main.38b9bb91.js.map"
   },
   "entrypoints": [
     "static/css/main.febaa06d.css",
-    "static/js/main.d6d319f5.js"
+    "static/js/main.38b9bb91.js"
   ]
 }
