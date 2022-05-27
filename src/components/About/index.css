@@ -46,13 +46,29 @@
         width: 80%;
     }
 }
+.about .text-box h1{
+    margin-bottom: 2rem;
+}
+p{
+    animation: fadeInLeft 1s backwards;
+    margin-top: 1rem;
+    letter-spacing:1px;
+}
 h3{
     margin-top: 2rem;
 }
-.skill-box{
-    position: absolute;
+.container{
+    display: flex;
+}
+.text-box{
     display: flex;
     flex-direction: column;
+}
+.skill-box{
+    display: flex;
+    flex-direction: column;
+    animation: fadeInDownBig 2s backwards;
+    margin-top: 15%;
     width: 50vw;
     height: 30vw;
     left: 40vw;
@@ -68,31 +84,31 @@ h3{
 .js-skill{
     height: 100%;
     background: red;
-    animation: js 5s both;
+    animation: js 5s 2s both;
 }
 .css-skill{
     height: 100%;
     background: red;
-    animation: css 5s both;
+    animation: css 5s 2s both;
 }
 .html-skill{
     height: 100%;
     background: red;
-    animation: html 5s both;
+    animation: html 5s 2s both;
 }
 .node-skill{
     height: 100%;
     background: red;
-    animation: node 5s both;
+    animation: node 5s 2s both;
 }
 .react-skill{
     height: 100%;
     background: red;
-    animation: react 5s both;
+    animation: react 5s 2s both;
 }
 .express-skill{
     height: 100%;
     background: red;
-    animation: express 5s both;
+    animation: express 5s 2s both;
 }
 
