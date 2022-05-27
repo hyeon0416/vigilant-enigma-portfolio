@@ -46,7 +46,7 @@ function Contact(){
                     </p>
                     <div className="contact-box">
                         <form ref={form} onSubmit={sendEmail}>
-                            <ul>
+                            <ul className="input-box">
                                 <li className="half">
                                     <input placeholder="이름" type="text" name="name" required />
                                 </li>
@@ -60,20 +60,14 @@ function Contact(){
                                     <textarea placeholder="메세지..." name="message" required />
                                 </li>
                                 <li>
-                                    <input type="submit" className="form-button" value="SEND" />
+                                    <input className="form-button" type="submit" value="SEND" />
                                 </li>
                             </ul>
                         </form>
                     </div>
                 </div>
-                <div className="infoMap">
-                    대한민국,<br/>
-                    전주시,<br/>
-                    덕진구 우아동 3가 우성아파트<br/>
-                    <span>guspooh1@gmail.com</span>
-                </div>
                 <div className="map">
-                    <MapContainer center={position} zoom={13} scrollWheelZoom={false}>
+                    <MapContainer center={position} zoom={8} scrollWheelZoom={false}>
                         <TileLayer
                         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"

@@ -76,7 +76,7 @@ h3{
     color: #ffd700;
 }
 .skill-bar{
-    border: 1px solid white;
+    background: #2f2f2fb6;
     height: 0.2rem;
     margin-top: 3px;
     border-radius: 2%;
@@ -88,27 +88,27 @@ h3{
 }
 .css-skill{
     height: 100%;
-    background: red;
+    background: blue;
     animation: css 5s 2s both;
 }
 .html-skill{
     height: 100%;
-    background: red;
+    background: purple;
     animation: html 5s 2s both;
 }
 .node-skill{
     height: 100%;
-    background: red;
+    background: brown;
     animation: node 5s 2s both;
 }
 .react-skill{
     height: 100%;
-    background: red;
+    background: salmon;
     animation: react 5s 2s both;
 }
 .express-skill{
     height: 100%;
-    background: red;
+    background: aquamarine;
     animation: express 5s 2s both;
 }
 

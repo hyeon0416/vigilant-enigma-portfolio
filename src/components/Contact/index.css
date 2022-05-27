@@ -14,6 +14,9 @@ input{
     margin-top: 1rem;
     width: 100%;
     height: 2rem;
+    color: #fff;
+    background: #181818;
+    border: none;
 }
 .contact-box{
     width: 100%;
@@ -25,8 +28,37 @@ input{
 }
 .contact-box textarea{
     margin-top: 1rem;
+    border: none;
     width: 100%;
-    height: 5rem;
+    height: 10rem;
+    font-size: 1rem;
+    color: #fff;
+    background: #181818;
+}
+.form-button{
+    color: #ffd700;
+    font-size: 1.5rem;
+    text-decoration: none;
+    width: 20%;
+    letter-spacing: 3px;
+    border: 1px solid #ffd700;
+    background: none;
+    box-sizing: border-box;
+    cursor: grab;
+}
+@keyframes button{
+    0%{
+        background-color: none;
+        color: #ffd700;
+    }
+    100%{
+        background-color: #ffd700;
+        color: #181818;
+    }
+}
+.form-button:hover{
+    animation: button 1s;
+    animation-fill-mode: both;
 }
 .leaflet-container {
     position: relative;
@@ -37,7 +69,6 @@ input{
 }
 .map{
     position: absolute;
-    background: #00ff9f;
     top: 5rem;
     left: 60%;
     width: 35%;
@@ -58,12 +89,6 @@ input{
     opacity: 0;
     animation: fadeIn 1s 1.5s;
     animation-fill-mode: forwards;
-}
-.infoMap span {
-    font-size: 16px;
-}
-.infoMap span span {
-    color: #ffd700;
 }
 .half{
     animation: fadeInLeftBig 1.5s 1s;
