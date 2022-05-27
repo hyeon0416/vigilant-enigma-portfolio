@@ -29,11 +29,11 @@ function Home(){
                     <h1>
                         <TextBox classNames={textClass} strArr={job} index={19} />
                     </h1>
+                    <Link to='/contact' className='button'>
+                        CONTACT ME
+                    </Link>
                 </div>
                 <ReactAnimate />
-                <Link to='/contact' className='button'>
-                    CONTACT ME
-                </Link>
             </div>
         </>
     )
